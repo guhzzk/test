@@ -1,18 +1,22 @@
-# 📚 Biblioteca Digital PWA
+# 🚀 Portfolio Épico - Fullstack Completo
 
-![Screenshot](https://via.placeholder.com/1200x600/2C5282/FFFFFF?text=Biblioteca+Digital)
+[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SEUUSERNAME/portfolio-epico)
 
-## ✨ Funcionalidades
+**Live Demo:** https://portfolio-epico.vercel.app
 
-- ✅ **Catálogo completo** com 6+ livros fictícios
-- ✅ **Sistema de empréstimo/devolução** com datas
-- ✅ **Login/Register** + **Painel Admin** (admin/admin123)
-- ✅ **Busca e filtros** avançados
-- ✅ **Design premium** Dark/Light mode
-- ✅ **PWA completa** - funciona offline!
-- ✅ **Responsivo** Mobile-first
-- ✅ **LocalStorage** persistente
-- ✅ **Toast notifications** elegantes
-- ✅ **Estatísticas** em tempo real
+![Hero](https://i.imgur.com/hero-demo.png)
 
-## 🚀 Deploy Instantâneo
+## 🚀 Quick Start (3 minutos)
+
+```bash
+git clone https://github.com/SEUUSERNAME/portfolio-epico.git
+cd portfolio-epico
+
+# Terminal 1 - Backend
+cd backend && npm i && npm run dev
+
+# Terminal 2 - Frontend  
+cd ../frontend && npm i && npm run dev
+
+# Terminal 3 - DB
+docker-compose up -d
